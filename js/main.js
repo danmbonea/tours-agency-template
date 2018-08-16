@@ -23,3 +23,11 @@ M.Autocomplete.init(ac, {
     Zanzibar: null
   }
 });
+
+// Material Boxed
+const mb = document.querySelectorAll(".materialboxed");
+M.Materialbox.init(mb, {});
+
+// ScrollSpy
+const ss = document.querySelectorAll(".scrollspy");
+M.ScrollSpy.init(ss, {});
